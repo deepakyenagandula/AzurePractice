@@ -102,7 +102,6 @@ public class SftpConnector
                     client.Disconnect();
                     Console.WriteLine("Disconnected from SFTP server.");
                 }
-                hi
             }
         }
     }
