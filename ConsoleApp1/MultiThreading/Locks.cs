@@ -39,7 +39,7 @@ public class Locks
         return tasks;
     }
 
-    static void Main()
+    static void Process()
     {
         Locks locks = new();
         var incrementingTasks = LoopNTimesAndGetLisOfTasks(20, locks.LockingAndIncreasingByOne);
