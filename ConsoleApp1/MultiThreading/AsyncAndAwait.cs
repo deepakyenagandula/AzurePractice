@@ -9,7 +9,7 @@ public class AsyncAndAwait
 
 
 
-    static async Task Main()
+    static async Task MainMethod()
     {
         Console.WriteLine("Main thread started execution...");
         // Here main thread will comeback and prints Main thread execution completed... immediately  because the task is not awaited so it runs in background
